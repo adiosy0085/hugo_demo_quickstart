@@ -15,7 +15,7 @@ jobs:
           with:
               fetch-depth: 0
 
-        - name: Update Submodule                                # 第三步 更新主题子模块
+        - name: Update Submodule                                # 第三步 更新子模块
             run: git submodule update --init --recursive
 
         - name: Setup Hugo                                      # 第二步 Hugo 配置

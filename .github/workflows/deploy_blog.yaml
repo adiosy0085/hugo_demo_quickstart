@@ -25,7 +25,7 @@ jobs:
               extended: true                                    # 是否使用 extended 版本
 
         - name: Build Web                                       # 第三步 构建
-          run: hugo -E                                          # 构建命令
+          run: hugo -DE                                         # 构建命令
 
         - name: Deploy Web                                      # 第四步 发布
           uses: peaceiris/actions-gh-pages@v4
